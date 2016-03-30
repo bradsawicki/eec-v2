@@ -1,16 +1,35 @@
 
 .site-footer {
   @include cf;
-  display: flex;
-  padding: 60px 0;
+  padding: 24px 0;
+
+  @include bp-min-width($small) {
+    display: flex;
+    padding: 60px 0;
+  }
 }
 
 .social-links {
-  @include font-size(18px);
+  @include font-size(16px);
+
+  @include bp-max-width($small) {
+    margin-bottom: 12px;
+  }
+
+  @include bp-min-width($small) {
+    @include font-size(18px);
+  }
 }
 
 .copyright {
-  @include font-size(18px);
+  @include font-size(16px);
   margin-left: auto;
-  padding-right: 40px;
+
+  @include bp-min-width($small) {
+    @include font-size(18px);
+  }
+
+  @include bp-min-width($xlarge) {
+    padding-right: 40px;
+  }
 }

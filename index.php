@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicago Web Design | Chicago Web Development | Eleven Eleven Creative</title>
     <link href="/dist/css/main.css" rel="stylesheet" media="all">
-    <!-- <link rel="icon" type="image/png" href="/dist/images/favicon.png"> -->
+    <link rel="icon" type="image/png" href="/src/images/favicon.png">
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -84,13 +84,11 @@
       </main>
 
       <footer class="site-footer">
-        <p class="social-links"><a href="">Contact Us</a> / <a href="">Twitter</a> / <a href="">Facebook</a></p>
-        <p class="copyright">&copy;<?php echo date('Y'); ?> Be Cool.</p>
+        <p class="social-links"><a href="mailto:hello@elevenelevencreative.com">Contact Us</a> / <a href="https://twitter.com/1111creative">Twitter</a> / <a href="https://www.facebook.com/ElevenElevenCreative">Facebook</a></p>
+        <p class="copyright">Chicago, IL</p>
       </footer>
 
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/dist/js/main.js"></script>
   </body>
 </html>

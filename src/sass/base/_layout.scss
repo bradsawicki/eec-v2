@@ -8,15 +8,19 @@ html {
 
 .site-header--wrapper,
 .site-wrapper {
-  padding-left: 260px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include bp-min-width($small) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
   @include bp-min-width($xlarge) {
     max-width: 1540px;
     margin-left: 0 auto;
+    padding-left: 260px;
   }
-}
-
-.site-main {
 }
 
 .wrapper {

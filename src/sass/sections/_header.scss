@@ -1,23 +1,73 @@
 
 .site-header {
-  display: flex;
-  align-items: center;
-  height: 96px;
   background: #fff;
 }
 
-.logo {
-  @include font-size(36px);
-  position: fixed;
-  top: 0;
-  left: 0;
+.site-header--wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 260px;
-  height: 96px;
+  height: 66px;
+
+  @include bp-min-width($large) {
+    height: 96px;
+  }
+}
+
+.logo {
+  @include font-size(24px);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 66px;
+
+  @include bp-min-width($small) {
+    width: 140px;
+  }
+
+  @include bp-min-width($large) {
+    @include font-size(36px);
+    height: 96px;
+  }
+
+  @include bp-min-width($xlarge) {
+    @include font-size(36px);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+  }
 }
 
 .contact-link {
-  @include font-size(30px);
+  @include font-size(18px);
+  line-height: 1;
+
+  @include bp-max-width($small) {
+    margin-left: auto;
+  }
+
+  @include bp-min-width($large) {
+    @include font-size(24px);
+  }
+
+  @include bp-min-width($large) {
+    @include font-size(30px);
+  }
 }
+
+.contact-link a:after {
+  @include global-transition(.09s);
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: $dk-grey;
+}
+
+.contact-link a:hover:after {
+  width: 100%;
+  background: $black;
+}
+

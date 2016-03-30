@@ -68,7 +68,6 @@
 }
 
 .project-list--view-site {
-
   @include bp-max-width($medium) {
     display: none;
   }

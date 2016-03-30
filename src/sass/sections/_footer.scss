@@ -1,0 +1,16 @@
+
+.site-footer {
+  @include cf;
+  display: flex;
+  padding: 60px 0;
+}
+
+.social-links {
+  @include font-size(18px);
+}
+
+.copyright {
+  @include font-size(18px);
+  margin-left: auto;
+  padding-right: 40px;
+}

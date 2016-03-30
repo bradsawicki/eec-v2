@@ -1,0 +1,65 @@
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 96%;
+  height: 600px;
+}
+
+.hero--title {
+  @include font-size(24px);
+
+  @include bp-min-width($small) {
+    @include font-size(72px);
+    @include line-height(78px);
+    margin-bottom: 24px;
+  }
+}
+
+.hero--party {
+  @include font-size(18px);
+  margin-right: auto;
+
+  @include bp-min-width($small) {
+    @include font-size(32px);
+  }
+}
+
+.project-list--item {
+  position: relative;
+}
+
+.project-list--link {
+  display: block;
+  padding: 60px 0;
+  border-bottom: 1px solid $lt-grey;
+}
+
+.project-list--link:hover {
+  border-color: $black;
+}
+
+.project-list--title {
+  @include font-size(24px);
+
+  @include bp-min-width($small) {
+    @include font-size(72px);
+  }
+}
+
+.project-list--view-site {
+  @include global-transition(0.2s);
+  @include font-size(24px);
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+}
+
+.project-list--link:hover .project-list--view-site {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+

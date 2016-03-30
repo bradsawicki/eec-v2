@@ -1,0 +1,15 @@
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+[class^="icon-"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-icon {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}

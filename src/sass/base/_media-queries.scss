@@ -1,0 +1,28 @@
+
+$xlarge:  1100px;
+$large:   1000px;
+$medium:  700px;
+$small:   600px;
+$xsmall:  440px;
+$tiny:    350px;
+
+
+@mixin bp-max-width($point) {
+	@media (max-width: $point) { @content; }
+}
+
+@mixin bp-max-height($point) {
+	@media (max-height: $point) { @content; }
+}
+
+@mixin bp-min-width($point) {
+	@media (min-width: $point) { @content; }
+}
+
+@mixin bp-min-height($point) {
+	@media (min-width: $point) { @content; }
+}
+
+@mixin bp-max-min($max, $min) {
+	@media (max-width: $max) and (min-width: $min) { @content; }
+}

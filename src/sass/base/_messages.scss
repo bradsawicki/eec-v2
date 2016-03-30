@@ -1,0 +1,42 @@
+
+.message {
+  position: relative;
+  padding: 10px 36px 10px 18px;
+  border-radius: 3px;
+  font-weight: $med;
+}
+
+.message p {
+  color: #fff;
+}
+
+.message .icon-close {
+  transform: translateY(-50%);
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+
+.message-success {
+  background: $green;
+}
+
+.message-error {
+  background: $red;
+}
+
+.message-notification {
+  background: $yellow;
+}
+
+.message-notification p {
+  color: $black;
+}
+
+.message-notification .icon-close {
+  fill: $black;
+}
+

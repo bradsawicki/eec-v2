@@ -1,0 +1,28 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: $creme;
+}
+
+.site-header--wrapper,
+.site-wrapper {
+  padding-left: 260px;
+
+  @include bp-min-width($xlarge) {
+    max-width: 1540px;
+    margin-left: 0 auto;
+  }
+}
+
+.site-main {
+}
+
+.wrapper {
+  @include cf;
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

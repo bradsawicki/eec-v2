@@ -1,0 +1,63 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  text-align: left;
+}
+
+tbody {
+  background: #fff;
+}
+
+tfoot {
+  border-top: 1px solid $grey;
+}
+
+.header-cell,
+.table-cell {
+  @include font-size(13px);
+  line-height: 1.2em;
+}
+
+.table-cell {
+  vertical-align: middle;
+  padding: 12px 6px;
+  border-bottom: 1px solid $lt-grey;
+  font-weight: $med;
+  color: $black;
+}
+
+.header-cell {
+  padding: 12px 6px 12px;
+  background: #fff;
+  border-bottom: 1px solid $lt-grey;
+  color: $black;
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+
+.header-cell:first-of-type,
+.table-cell:first-of-type {
+  padding-left: 12px;
+}
+
+.table-row .header-cell:last-of-type,
+.table-row .table-cell:last-of-type {
+  padding-right: 12px;
+}
+
+.table-row:last-of-type .table-cell {
+  border-bottom: none;
+}
+
+.table-cell--actions {
+  text-align: right;
+}
+
+.table-cell--actions a {
+  margin-left: 10px;
+}

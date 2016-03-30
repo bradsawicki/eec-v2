@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'noe';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/src/fonts/noe-display-medium.eot'); /* IE9 Compat Modes */
+  src: url('/src/fonts/noe-display-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/src/fonts/noe-display-medium.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+$sans: 'noe', Georgia, serif;
+$base:  24px;
+$med:   500;
+
+body {
+  font: $med 1em/1.5em $sans;
+  color: $dk-grey;
+}
+
+h1, h2, h3, h4, h5, p, ul ,ol {
+  line-height: 1;
+}
+
+.section-title {
+  @include font-size(36px);
+  margin-bottom: $base;
+}
+
+.section-title:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  margin-top: 6px;
+  background: $dk-grey;
+}

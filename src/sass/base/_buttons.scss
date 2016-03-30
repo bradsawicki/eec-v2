@@ -1,0 +1,21 @@
+
+a {
+  @include global-transition(0.1s);
+  color: $dk-grey;
+
+	&:hover {
+    color: $black;
+	}
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  @include bp-max-width($small) {
+    width: 100%;
+  }
+}

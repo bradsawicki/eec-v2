@@ -17,8 +17,7 @@ html {
   }
 
   @include bp-min-width($xlarge) {
-    max-width: 1540px;
-    margin-left: 0 auto;
+    margin: 0 auto;
     padding-left: 260px;
   }
 }

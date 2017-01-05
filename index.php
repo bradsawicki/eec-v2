@@ -58,24 +58,16 @@
             </li>
             <li class="project-list--item">
               <h4 class="project-list--title">
-                <a href="http://trespupusas.com" class="project-list--link">
-                  <span class="project-list--link-title">Tres Latin Foods</span>
-                  <span class="project-list--view-site">View Site</span>
-                </a>
-              </h4>
-            </li>
-            <li class="project-list--item">
-              <h4 class="project-list--title">
-                <a href="http://austinscarlett.com" class="project-list--link">
-                  <span class="project-list--link-title">Austin Scarlett</span>
-                  <span class="project-list--view-site">View Site</span>
-                </a>
-              </h4>
-            </li>
-            <li class="project-list--item">
-              <h4 class="project-list--title">
                 <a href="https://singmeastory.org" class="project-list--link">
                   <span class="project-list--link-title">Sing Me a Story</span>
+                  <span class="project-list--view-site">View Site</span>
+                </a>
+              </h4>
+            </li>
+            <li class="project-list--item">
+              <h4 class="project-list--title">
+                <a href="http://trespupusas.com" class="project-list--link">
+                  <span class="project-list--link-title">Tres Latin Foods</span>
                   <span class="project-list--view-site">View Site</span>
                 </a>
               </h4>
@@ -98,6 +90,7 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-24037725-1', 'auto');
       ga('send', 'pageview');
+      ga('send', 'event', 'Links', 'click');
     </script>
   </body>
 </html>

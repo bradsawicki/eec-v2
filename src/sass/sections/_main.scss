@@ -62,7 +62,8 @@
   }
 
   @include bp-min-width($large) {
-    @include font-size(72px);
+    font-size: 5vw;
+    line-height: 1.1;
   }
 }
 

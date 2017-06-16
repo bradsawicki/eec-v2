@@ -45,6 +45,9 @@ Thumbs.db
 *.tar
 *.zip
 
+# ignore clients directories
+clients/
+
 # ignore node/grunt dependency directories
 node_modules/
 

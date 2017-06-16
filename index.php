@@ -34,16 +34,16 @@
           <ul class="project-list">
             <li class="project-list--item">
               <h4 class="project-list--title">
-                <a href="https://cappellos.com" class="project-list--link">
-                  <span class="project-list--link-title">Cappello's</span>
+                <a href="http://techlinkcenter.org" class="project-list--link">
+                  <span class="project-list--link-title">TechLink</span>
                   <span class="project-list--view-site">View Site</span>
                 </a>
               </h4>
             </li>
             <li class="project-list--item">
               <h4 class="project-list--title">
-                <a href="http://theeverygirl.com" class="project-list--link">
-                  <span class="project-list--link-title">The Everygirl</span>
+                <a href="https://cappellos.com" class="project-list--link">
+                  <span class="project-list--link-title">Cappello's</span>
                   <span class="project-list--view-site">View Site</span>
                 </a>
               </h4>
@@ -58,16 +58,16 @@
             </li>
             <li class="project-list--item">
               <h4 class="project-list--title">
-                <a href="https://singmeastory.org" class="project-list--link">
-                  <span class="project-list--link-title">Sing Me a Story</span>
+                <a href="http://quickstart-ether.com" class="project-list--link">
+                  <span class="project-list--link-title">Quickstart</span>
                   <span class="project-list--view-site">View Site</span>
                 </a>
               </h4>
             </li>
             <li class="project-list--item">
               <h4 class="project-list--title">
-                <a href="http://trespupusas.com" class="project-list--link">
-                  <span class="project-list--link-title">Tres Latin Foods</span>
+                <a href="https://singmeastory.org" class="project-list--link">
+                  <span class="project-list--link-title">Sing Me a Story</span>
                   <span class="project-list--view-site">View Site</span>
                 </a>
               </h4>
